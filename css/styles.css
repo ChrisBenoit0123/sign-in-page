@@ -1,1 +1,155 @@
+body {
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lato";
+}
 
+.form {
+  border-radius: 10px;
+  margin: 80px auto;
+  width: 60%;
+  height: 75vh;
+  box-shadow: 0 4px 10px 1px grey;
+}
+
+.surveyFormLeft {
+  float: left;
+  border-radius: 10px 0 0 10px;;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.surveyFormRight {
+  float: right;
+  border-radius: 0 10px 10px 0;
+  width: 50%;
+  height: 100%;
+  background-color: #F08A5D;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+input {
+  padding: 10px;
+  background-color: #F0F0F0;
+  border: none;
+  display: block;
+  margin: auto;
+  color: #696969;
+  width: 60%;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+.forgot {
+  margin-top: 10px;
+}
+
+.forgot:hover {
+  cursor: pointer;
+}
+
+.submit {
+  border: none;
+  width: 40%;
+  margin: 30px auto;
+  display: block;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: #F08A5D;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #e6865c;
+  cursor: pointer;
+}
+
+.signUp {
+  margin-top: 130px;
+}
+
+.signUpButton {
+  border: 1px solid white;
+  width: 40%;
+  margin: 30px auto;
+  display: block;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: #F08A5D;
+  color: white;
+}
+
+.signUpButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #F08A5D;
+}
+
+.logos {
+  text-align: center;
+  overflow: auto;
+}
+
+/*---------- Facebook Logo Styles ----------*/
+.facebook {
+  border-radius: 15px;
+  padding: 8px;
+  border: 1px solid #e6865c;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+.facebook:hover {
+  background-color: #e6865c;
+  cursor: pointer;
+}
+/*------------------------------------------*/
+
+/*-------- Google Plus Logo Styles --------*/
+.google-plus {
+  border-radius: 15px;
+  padding: 8px;
+  border: 1px solid #e6865c;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.google-plus:hover {
+  background-color: #e6865c;
+  cursor: pointer;
+}
+/*------------------------------------------*/
+
+/*---------- Linkedin Logo Styles ----------*/
+.linkedin {
+  border-radius: 15px;
+  padding: 8px;
+  border: 1px solid #e6865c;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.linkedin:hover {
+  background-color: #e6865c;
+  cursor: pointer;
+}
+/*------------------------------------------*/
